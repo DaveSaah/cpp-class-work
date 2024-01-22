@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class IntCell {
   public:
@@ -24,12 +25,12 @@ int main () {
   m1.write(44);
   m2.write(m1.read() + 1);
 
-  std::cout << "m1: " << m1.read() << std::endl;
-  std::cout << "m2: " << m2.read() << std::endl;
+  cout << "m1: " << m1.read() << endl;
+  cout << "m2: " << m2.read() << endl;
 
   m3 = new IntCell;
 
-  std::cout << "m3: " << m3->read() << std::endl;
+  cout << "m3: " << m3->read() << endl;
   return 0;
 }
 
