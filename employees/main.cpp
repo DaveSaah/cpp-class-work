@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class Employee {
@@ -8,14 +9,14 @@ public:
 
 private:
   int id;
-  char name[30];
+  string name;
 };
 
 void Employee::getdata() {
   cout << "Enter Id: ";
   cin >> id;
   cout << "Enter name: ";
-  cin >> name;
+  getline(cin, name);
 }
 
 void Employee::putdata() { cout << id << " " << name << " " << endl; }
