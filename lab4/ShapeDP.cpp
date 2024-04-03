@@ -1,6 +1,6 @@
 /**
  * ID: 72522025
- * author: David Saah
+ * author: David Abeiku Saah
  */
 #include <iomanip>
 #include <iostream>
